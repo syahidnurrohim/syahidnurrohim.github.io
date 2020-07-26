@@ -563,7 +563,7 @@ a.brand:focus {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: .65rem;
-	height: 2.356rem
+	height: 2.5rem
 }
 
 .brand-info {
@@ -1839,14 +1839,23 @@ a.brand:focus {
 }
 
 .section-bg {
-	position: absolute;
-	left: 0;
-	top: 0;
+	position: relative;
 	width: 100%;
 	height: 100%;
 	background-size: cover;
 	background-position: center
 }
+
+.section-bg:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgba(0,0,0,.6);
+}
+
 
 .vertical-title {
 	position: absolute;
