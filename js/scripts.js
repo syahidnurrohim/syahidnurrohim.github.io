@@ -1,7 +1,22 @@
 (function($) {
     'use strict';
 	const form_url = "https://script.google.com/macros/s/AKfycbyc23tpeLRuYjkIzm0ltiw6xIkeGQJhShpFsBMu/exec"
+	const social_url = {
+		stackoverflow: "https://stackoverflow.com/users/9423091/syahid-nurrohim",
+		facebook: "https://www.facebook.com/s.nurrohim/",
+		twitter: "https://twitter.com/reallyneedhim",
+		linkedin: "#",
+		github: "https://github.com/syahidnurrohim"
+	}
     var navbar = $('.js-navbar:not(.navbar-fixed)');
+	
+	$(".social-list").each(function(id, e) {
+		for (let i = 0; i < e.children.length; i++) {
+			const social = e.children[i]
+			social.setAttribute("href", social_url[social.className])
+		}
+	})
+
     $(window).on('load', function() {
         $('.loader').fadeOut(1000);
     });
