@@ -1,0 +1,11 @@
+.icon-tech-wrapper {
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  column-gap: 8%;
+  row-gap: 1.75em;
+}
+
+.icon-item {
+  width: 100%;
+  height: 100%;
+}
