@@ -19,7 +19,8 @@
 
   $(window).on('load', function () {
     $('.loader').fadeOut(1000);
-    $('#years_experience').html((new Date).getFullYear() - 2017)
+    //$('#years_experience').html((new Date).getFullYear() - 2017)
+    $('#years_experience').html(0)
   });
   navbar.affix({
     offset: {
