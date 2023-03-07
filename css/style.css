@@ -2051,8 +2051,42 @@ a.brand:focus {
 }
 
 .project-desc {
+  color: white;
+  opacity: 0.875;
+  text-align: justify;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.modal-detail-project .project-used-technologies, 
+.modal-detail-project .project-category {
   font-size: .875em;
   color: white;
+  opacity: 0.5;
+  text-align: left;
+  margin: 0;
+}
+
+.modal-detail-project .project-images div {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 49.5% 49.5%;
+  grid-column-gap: 1%;
+  grid-row-gap: 1%;
+}
+
+.modal-detail-project .project-images img {
+  width: 100%;
+  margin: 0.125em 0;
+}
+
+.modal-detail-project .project-images img:hover {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+}
+
+.modal-detail-project .project-link {
+  font-size: 0.875em;
 }
 
 .project-box h5 {
@@ -6555,6 +6589,17 @@ a.brand:focus {
 	-webkit-flex: 0 0 100%;
 	-ms-flex: 0 0 100%;
 	flex: 0 0 100%
+}
+
+.close {
+  color: var(--primary);
+  text-shadow: none;
+  opacity: 1;
+  font-size: 28px;
+}
+
+.close:hover, .close:focus {
+  color: var(--primary-darker);
 }
 
 @media(min-width:768px) {

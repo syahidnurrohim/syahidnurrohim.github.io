@@ -1,576 +1,601 @@
 <!DOCTYPE HTML>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="">
-      <meta name="author" content="">
-	  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-	  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-	  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-	  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-	  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-	  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-	  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-	  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-	  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-	  <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
-	  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-	  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-	  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-	  <link rel="manifest" href="/manifest.json">
-	  <meta name="msapplication-TileColor" content="#ffffff">
-	  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	  <meta name="theme-color" content="#ffffff">
-      <title>Syahid Nurrohim | Web Programmer</title>
-      <link href="css/style.css" rel="stylesheet" media="screen">
-   </head>
-   <body class="body-full-page">
-      <div class="loader">
-         <div class="spinner">
-            <div class="double-bounce1"></div>
-            <div class="double-bounce2"></div>
-         </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Syahid Nurrohim | Web Programmer</title>
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.3/viewer.min.css" rel="stylesheet">
+  </head>
+  <body class="body-full-page">
+    <div class="loader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
       </div>
-      <div class="click-capture"></div>
-      <div class="menu">
-         <span class="close-menu right-boxed"><span aria-hidden="true" style="font-size: 1.5em">&times;</span></span>
-         <div class="menu-lang right-boxed">
-            <a href="" class="active">Eng</a>
-         </div>
-         <ul class="menu-list right-boxed">
-            <li data-menuanchor="page1">
-               <a href="#page1">Home</a>
-            </li>
-            <li data-menuanchor="page2">
-               <a href="#page2">Specialization</a>
-            </li>
-            <li data-menuanchor="page3">
-               <a href="#page3">Projects</a>
-            </li>
-            <li data-menuanchor="page4">
-               <a href="#page4">Services</a>
-            </li>
-            <li data-menuanchor="page5">
-               <a href="#page5">Timeline</a>
-            </li>
-            <li data-menuanchor="page6">
-               <a href="#page6">Contact</a>
-            </li>
-         </ul>
-         <div class="menu-footer right-boxed">
-            <div class="social-list">
-               <a class="twitter" href="">
-                  <ion-icon name="logo-twitter"></ion-icon>
-               </a>
-               <a class="facebook" href="">
-                  <ion-icon name="logo-facebook"></ion-icon>
-               </a>
-               <a class="stackoverflow" href="">
-                  <ion-icon name="logo-stackoverflow"></ion-icon>
-               </a>
-               <a class="linkedin" href="">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-               </a>
-               <a class="github" href="">
-                  <ion-icon name="logo-github"></ion-icon>
-               </a>
-            </div>
-            <div class="copy">© Syahid 2020. All Rights Reseverd</div>
-         </div>
+    </div>
+    <div class="click-capture"></div>
+    <div class="menu">
+      <span class="close-menu right-boxed"><span aria-hidden="true" style="font-size: 1.5em">&times;</span></span>
+      <div class="menu-lang right-boxed">
+        <a href="" class="active">Eng</a>
       </div>
-      <header class="navbar navbar-2 navbar-white boxed">
-         <div class="navbar-bg"></div>
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         </button>
-         <a class="brand" href="#">
-            <img class="brand-img" alt="" src="images/logo.png">
-            <div class="brand-info">
-               <div class="brand-name">Syahid</div>
-               <div class="brand-text">Nurrohim</div>
-            </div>
-         </a>
-         <div class="social-list hidden-xs">
-            <a class="twitter" href="">
-               <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-            <a class="facebook" href="">
-               <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-            <a class="stackoverflow" href="">
-               <ion-icon name="logo-stackoverflow"></ion-icon>
-            </a>
-            <a class="linkedin" href="">
-               <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-            <a class="github" href="">
-               <ion-icon name="logo-github"></ion-icon>
-            </a>
-         </div>
-      </header>
-      <div class="copy-bottom white boxed">© Syahid 2020.</div>
-      <div class="lang-bottom white boxed">
-         <div class="menu-lang">
-            <a href="" class="active">Eng</a>
-         </div>
+      <ul class="menu-list right-boxed">
+        <li data-menuanchor="page1">
+          <a href="#page1">Home</a>
+        </li>
+        <li data-menuanchor="page2">
+          <a href="#page2">Specialization</a>
+        </li>
+        <li data-menuanchor="page3">
+          <a href="#page3">Projects</a>
+        </li>
+        <li data-menuanchor="page4">
+          <a href="#page4">Services</a>
+        </li>
+        <li data-menuanchor="page5">
+          <a href="#page5">Timeline</a>
+        </li>
+        <li data-menuanchor="page6">
+          <a href="#page6">Contact</a>
+        </li>
+      </ul>
+      <div class="menu-footer right-boxed">
+        <div class="social-list">
+          <a class="twitter" href="">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+          <a class="facebook" href="">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a class="stackoverflow" href="">
+            <ion-icon name="logo-stackoverflow"></ion-icon>
+          </a>
+          <a class="linkedin" href="">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a class="github" href="">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </div>
+        <div class="copy">© Syahid 2020. All Rights Reseverd</div>
       </div>
-      <div class="pagepiling">
-         <div data-anchor="page1" class="pp-scrollable text-white section section-1">
-            <div class="scroll-wrap">
-               <div class="section-bg" style="background-image:url(images/bg/bg1.jpg);"></div>
-               <div class="scrollable-content">
-                  <div class="vertical-centred">
-                     <div class="boxed boxed-inner">
-                        <div class="vertical-title hidden-xs hidden-sm"><span>Greeting</span></div>
-                        <div class="boxed">
-                           <div class="container">
-                              <div class="intro">
-                                 <div class="row">
-                                    <div class="col-md-8 col-lg-6">
-                                       <p class="subtitle-top" id="subtitle-top">Welcome To<br>My Personal Website</p>
-                                       <h1 class="display-2 text-white"><span class="text-primary">Hello</span> my name is <span id="name">Syahid</span>.</h1>
-                                       <div class="hr-bottom"></div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div data-anchor="page2" class="pp-scrollable section section-2">
-            <div class="scroll-wrap">
-               <div class="scrollable-content">
-                  <div class="vertical-centred">
-                     <div class="boxed boxed-inner">
-                        <div class="vertical-title text-dark hidden-xs hidden-sm"><span>what I do</span></div>
-                        <div class="boxed">
-                           <div class="container">
-                              <div class="intro">
-                                 <div class="row">
-                                    <div class="col-md-5 col-lg-5">
-                                       <p class="subtitle-top text-dark">About me</p>
-                                       <h2 class="title-uppercase">Curious guy who have <span class="text-primary">a great interest</span> <br> in technology</h2>
-									   Back when I was 14 I knew programming while editing action script in Adobe Flash. I remember it was a pretty basic programming logic, then in 9th grade, I decided to learn HTML, the most basic language for Web Technology. My journey continues especially in the Vocational School, day by day I learn Web Programming, concept, and things about it. Until, I fall in love with Machine Learning, and now my goal is <span class="text-primary">one day</span> I will be a Machine Learning Engineer.
-									</div>
-                                    <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
-                                      <p class="subtitle-top text-dark used-tech">Used Technologies</p>
-                                      <div class="icon-tech-wrapper">
-                                        <img src="icons/golang.svg" class="icon-item" title="Golang" alt="Golang">
-                                        <img src="icons/typescript.svg" class="icon-item" title="Typescript" alt="Typescript">
-                                        <img src="icons/python.svg" class="icon-item" title="Python" alt="Python">
-                                        <img src="icons/php.svg" class="icon-item" title="PHP" alt="PHP">
-                                        <img src="icons/mysql.svg" class="icon-item" title="MySQL" alt="MySQL">
-                                        <img src="icons/postgresql.svg" class="icon-item" title="PostgreSQL" alt="PostgreSQL">
-                                        <img src="icons/mongodb.svg" class="icon-item" title="MongoDB" alt="MongoDB">
-                                        <img src="icons/bash.svg" class="icon-item" title="Bash" alt="Bash">
-                                        <img src="icons/laravel.svg" class="icon-item" title="Laravel" alt="Laravel">
-                                        <img src="icons/nodejs.svg" class="icon-item" title="Nodejs" alt="Nodejs">
-                                        <img src="icons/reactjs.svg" class="icon-item" title="ReactJS" alt="ReactJS">
-                                        <img src="icons/preactjs.svg" class="icon-item" title="PreactJS" alt="PreactJS">
-                                      </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div data-anchor="page3" class="pp-scrollable text-white section section-3">
-            <div class="scroll-wrap">
-               <div class="bg-changer">
-                  <div class="section-bg" style="background-image:url(images/bg/bg2.jpg);"></div>
-                  <div class="section-bg" style="background-image:url(images/bg/bg2-2.jpg);"></div>
-                  <div class="section-bg" style="background-image:url(images/bg/bg2-3.jpg);"></div>
-                  <div class="section-bg" style="background-image:url(images/bg/bg2-4.jpg);"></div>
-                  <div class="section-bg" style="background-image:url(images/bg/bg2-5.jpg);"></div>
-                  <div class="section-bg" style="background-image:url(images/bg/bg2-6.jpg);"></div>
-               </div>
-               <div class="scrollable-content">
-                  <div class="vertical-centred">
-                     <div class="boxed boxed-inner">
-                        <div class="vertical-title hidden-xs hidden-sm"><span>my works</span></div>
-                        <div class="boxed">
-                           <div class="container">
-                              <div class="intro">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <h2 class="title-uppercase text-white">Featured works</h2>
-                                       <div class="row-project-box row" id="featured_works">
-                                          <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                                             <a href="" class="project-box">
-                                                <div class="project-box-inner">
-                                                   <h5>E-Rapor</h5>
-                                                   <div class="project-category">Information System</div>
-                                                   <p class="project-desc">Manajemen nilai report siswa dengan fitur perankingan dan penginputan nilai UTS, UAS dan Tugas</p>
-                                                </div>
-                                             </a>
-                                          </div>
-                                          <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                                             <a href="" class="project-box">
-                                                <div class="project-box-inner">
-                                                   <h5>SIM Aset Daerah</h5>
-                                                   <div class="project-category">Information System</div>
-                                                   <p class="project-desc">Manajemen kib aset daerah dengan fitur input barang, transaksi barang, laporan dan rekap</p>
-                                                </div>
-                                             </a>
-                                          </div>
-                                          <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                                             <a href="" class="project-box">
-                                                <div class="project-box-inner">
-                                                   <h5>e-Persediaan</h5>
-                                                   <div class="project-category">Information System</div>
-                                                   <p class="project-desc">Manajemen persediaan barang daerah dengan fitur input barang, transaksi barang, laporan dan rekap</p>
-                                                </div>
-                                             </a>
-                                          </div>
-                                          <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
-                                             <a href="" class="project-box">
-                                                <div class="project-box-inner">
-                                                   <h5>Simayapada</h5>
-                                                   <div class="project-category">Information System</div>
-                                                   <p class="project-desc">Manajemen data lelang daerah yang diambil dari aplikasi RUP dan LPSE</p>
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <a href="#" class="h5 link-arrow text-white">view all projects <i class="icon icon-chevron-right"></i></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div data-anchor="page4" class="pp-scrollable section section-4">
-            <div class="scroll-wrap">
-               <div class="scrollable-content">
-                  <div class="vertical-centred">
-                     <div class="boxed boxed-inner">
-                        <div class="vertical-title text-dark hidden-xs hidden-sm"><span>Services</span></div>
-                        <div class="boxed">
-                           <div class="container">
-                              <div class="intro">
-                                 <div class="row">
-                                    <div class="col-md-5 col-lg-5">
-                                       <p class="subtitle-top text-dark">My services</p>
-                                       <h2 class="title-uppercase">Aiming <span class="text-primary">to bring</span> client satisfication</h2>
-                                       <ul class="service-list">
-                                          <li><a href="">01. Agile Development</a></li>
-                                          <li><a href="">02. Maintenance</a></li>
-                                          <li><a href="">03. Structured Code</a></li>
-                                          <li><a href="">04. Revision</a></li>
-                                          <li><a href="">05. More</a></li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
-                                       <div class="dots-image-2">
-                                          <img alt="" class="img-responsive" src="images/1-470x490.jpg">
-                                          <div class="dots"></div>
-                                          <div class="experience-info">
-                                             <div class="number" id="years_experience"></div>
-                                             <div class="text">Years<br>Experience<br>In Web Programming</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div data-anchor="page5" class="pp-scrollable text-white section section-6">
-            <div class="scroll-wrap">
-               <div class="section-bg" style="background-image:url(images/bg/bg3.jpg);"></div>
-               <div class="scrollable-content">
-                  <div class="vertical-centred">
-                     <div class="boxed boxed-inner">
-                        <div class="vertical-title hidden-xs hidden-sm"><span>Resume</span></div>
-                        <div class="boxed">
-                           <div class="container">
-                              <div class="intro">
-                                 <div class="row">
-                                    <div class="col-md-6">
-                                       <div class="col-resume">
-                                          <h6 class="resume-title">
-                                             Achievement
-                                          </h6>
-                                          <div class="resume-content">
-                                             <div class="resume-inner" id="resume_education">
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">IT Venture XII (1st Place)</h6>
-                                                   <p class="resume-study">Location: Sebelas Maret University, Surakarta City, Central Java</p>
-                                                   <p class="resume-date text-primary">2019</p>
-                                                   <p class="resume-text">Annual national level competition held by Himaster UNS</p>
-                                                </div>
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">LKS SMK XXVIII Web Programming (2nd Place)</h6>
-                                                   <p class="resume-study">Location : SMKN 2 Yogyakarta, Yogyakarta City, Special Region of Yogyakarta</p>
-                                                   <p class="resume-date text-primary">2019</p>
-                                                   <p class="resume-text">Annual province level competition held by Department of Education Yogyakarta</p>
-                                                </div>
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">LKS SMK XXVII Web Programming (2nd Place)</h6>
-                                                   <p class="resume-study">Location : SMKN 2 Yogyakarta, Yogyakarta City, Special Region of Yogyakarta</p>
-                                                   <p class="resume-date text-primary">2018</p>
-                                                   <p class="resume-text">Annual province level competition held by Department of Education Yogyakarta</p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="col-resume">
-                                          <h6 class="resume-title">
-                                             Education
-                                          </h6>
-                                          <div class="resume-content">
-                                             <div class="resume-inner" id="resume_education">
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">ELEMENTARY SCHOOL</h6>
-                                                   <p class="resume-study">SDN 6 Wonosari, Gunung Kidul Regency, Special Region of Yogyakarta</p>
-                                                   <p class="resume-date text-primary">2008 - 2014</p>
-                                                </div>
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">JUNIOR HIGH SCHOOL</h6>
-                                                   <p class="resume-study">SMPN 1 Wonosari, Gunung Kidul Regency, Special Region of Yogyakarta</p>
-                                                   <p class="resume-date text-primary">2014 - 2017</p>
-                                                </div>
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">COMPUTER & NETWORK ENGINEERING</h6>
-                                                   <p class="resume-study">SMKN 2 Wonosari, Gunung Kidul Regency, Special Region of Yogyakarta</p>
-                                                   <p class="resume-date text-primary">2017 - 2020</p>
-                                                </div>
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">BACHELOR OF INFORMATICS</h6>
-                                                   <p class="resume-study">AMIKOM University, Sleman Regency, Special Region of Yogyakarta</p>
-                                                   <p class="resume-date text-primary">2021 - Present</p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="col-resume">
-                                          <h6 class="resume-title">
-                                             Experience
-                                          </h6>
-                                          <div class="resume-content">
-                                             <div class="resume-inner" id="resume_work">
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">PRACTICAL WORK</h6>
-                                                   <p class="resume-study">PT. Global Intermedia Nusantara, Yogyakarta City, Special Region of Yogyakarta</p>
-                                                   <p class="resume-date text-primary">Jul 2019 - Sep 2019</p>
-                                                </div>
-                                                <div class="resume-row">
-                                                   <h6 class="resume-type">WEB DEVELOPER</h6>
-                                                   <p class="resume-study">PT. Global Intermedia Nusantara, Yogyakarta City, Special Region of Yogyakarta</p>
-                                                   <p class="resume-date text-primary">Jul 2020 - Present</p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--<div data-anchor="page6" class="pp-scrollable section section-4">
-            <div class="scroll-wrap">
-            <div class="scrollable-content">
+    </div>
+    <header class="navbar navbar-2 navbar-white boxed">
+      <div class="navbar-bg"></div>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="#">
+        <img class="brand-img" alt="" src="images/logo.png">
+        <div class="brand-info">
+          <div class="brand-name">Syahid</div>
+          <div class="brand-text">Nurrohim</div>
+        </div>
+      </a>
+      <div class="social-list hidden-xs">
+        <a class="twitter" href="">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a class="facebook" href="">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a class="stackoverflow" href="">
+          <ion-icon name="logo-stackoverflow"></ion-icon>
+        </a>
+        <a class="linkedin" href="">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a class="github" href="">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
+    </header>
+    <div class="copy-bottom white boxed">© Syahid 2020.</div>
+    <div class="lang-bottom white boxed">
+      <div class="menu-lang">
+        <a href="" class="active">Eng</a>
+      </div>
+    </div>
+    <div class="pagepiling">
+      <div data-anchor="page1" class="pp-scrollable text-white section section-1">
+        <div class="scroll-wrap">
+          <div class="section-bg" style="background-image:url(images/bg/bg1.jpg);"></div>
+          <div class="scrollable-content">
             <div class="vertical-centred">
-            <div class="boxed boxed-inner">
-            <div class="vertical-title text-dark hidden-xs hidden-sm"><span>Partners</span></div>
-            <div class="boxed">
-            <div class="container">
-            <div class="intro overflow-hidden">
-            <div class="row">
-            <div class="col-md-12">
-            <div class="row-partners">
-            <div class="col-partner">
-            <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
-            </div>
-            <div class="col-partner">
-            <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
-            </div>
-            <div class="col-partner">
-            <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
-            </div>
-            <div class="col-partner">
-            <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
-            </div>
-             <div class="col-partner">
-            <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
-            </div>
-            <div class="col-partner">
-            <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
-            </div>
-            <div class="col-partner">
-            <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
-            </div>
-            <div class="col-partner">
-            <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div> -->
-         <!-- <div data-anchor="page7" class="pp-scrollable text-white section section-6">
-            <div class="scroll-wrap">
-            <div class="section-bg" style="background-image:url(images/bg/bg4.jpg);"></div>
-            <div class="scrollable-content">
-            <div class="vertical-centred">
-            <div class="boxed boxed-inner">
-            <div class="vertical-title hidden-xs hidden-sm"><span>testimonials</span></div>
-            <div class="boxed">
-            <div class="container">
-            <div class="intro">
-            <div class="row">
-            <div class="col-md-6 col-lg-5">
-            <span class="icon-quote ion-quote"></span>
-            <h2 class="title-uppercase text-white">creative & dedicated is things that Syahid studio brings for your house</h2>
-            </div>
-            <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2">
-            <div class="review-carousel owl-carousel">
-            <div class="review-carousel-item">
-            <div class="text">
-            <p>“ If you are seeking an Interior designer that will understand exactly your needs, and someone who will utilise their creative and technical skills in parity with your taste, then Suzanne at The Syahid Studio is perfect.</p>
-            <p> Thank you so much for all your design and expertise."</p>
-            </div>
-            <div class="review-author">
-            <div class="author-name">David & Elisa</div>
-            <i>Apartment view lake at Brooklyn</i>
-            </div>
-            </div>
-            <div class="review-carousel-item">
-            <div class="text">
-            <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptates officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius."</p>
-            <p> Thank you so much for all your design and expertise."</p>
-            </div>
-            <div class="review-author">
-            <div class="author-name">Amanda</div>
-            <i>Apartment view lake at Brooklyn</i>
-            </div>
-            </div>
-            <div class="review-carousel-item">
-            <div class="text">
-            <p>“ If you are seeking an Interior designer that will understand exactly your needs, and someone who will utilise their creative and technical skills in parity with your taste, then Suzanne at The Syahid Studio is perfect.</p>
-            <p> Thank you so much for all your design and expertise."</p>
-            </div>
-            <div class="review-author">
-            <div class="author-name">John</div>
-            <i>Apartment view lake at Brooklyn</i>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            -->
-         <div data-anchor="page6" class="pp-scrollable section section-6">
-            <div class="scroll-wrap">
-               <div class="scrollable-content">
-                  <div class="vertical-centred">
-                     <div class="boxed boxed-inner">
-                        <div class="vertical-title text-dark hidden-xs hidden-sm"><span>contact</span></div>
-                        <div class="boxed">
-                           <div class="container">
-                              <div class="intro overflow-hidden">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <h2 class="title-uppercase">Get In Touch</h2>
-                                       <div class="contact-info">
-                                          <form class="js-form" novalidate="novalidate">
-                                             <div class="row">
-                                                <div class="form-group col-sm-6">
-                                                   <input type="text" name="name" required="" placeholder="Name*" aria-required="true">
-                                                </div>
-                                                <div class="form-group col-sm-6">
-                                                   <input type="email" name="email" placeholder="Email">
-                                                </div>
-                                                <div class="form-group col-sm-12">
-                                                   <input type="text" name="subject" placeholder="Subject (Optinal)">
-                                                </div>
-                                                <div class="form-group col-sm-12">
-                                                   <textarea name="message" required="" placeholder="Message*" aria-required="true"></textarea>
-                                                </div>
-                                                <div class="col-sm-12"><button type="submit" class="btn">Send Message</button></div>
-                                             </div>
-                                          </form>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+              <div class="boxed boxed-inner">
+                <div class="vertical-title hidden-xs hidden-sm"><span>Greeting</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                          <p class="subtitle-top" id="subtitle-top">Welcome To<br>My Personal Website</p>
+                          <h1 class="display-2 text-white"><span class="text-primary">Hello</span> my name is <span id="name">Syahid</span>.</h1>
+                          <div class="hr-bottom"></div>
                         </div>
-                     </div>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <div id="success" class="modal modal-message fade" role="dialog">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                  <h2 class="modal-title">Thank you</h2>
-                  <p class="modal-subtitle">Your message is successfully sent...</p>
-               </div>
+      <div data-anchor="page2" class="pp-scrollable section section-2">
+        <div class="scroll-wrap">
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span>what I do</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-5 col-lg-5">
+                          <p class="subtitle-top text-dark">About me</p>
+                          <h2 class="title-uppercase">Curious guy who have <span class="text-primary">a great interest</span> <br> in technology</h2>
+                          Back when I was 14 I knew programming while editing action script in Adobe Flash. I remember it was a pretty basic programming logic, then in 9th grade, I decided to learn HTML, the most basic language for Web Technology. My journey continues especially in the Vocational School, day by day I learn Web Programming, concept, and things about it. Until, I fall in love with Machine Learning, and now my goal is <span class="text-primary">one day</span> I will be a Machine Learning Engineer.
+                        </div>
+                        <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                          <p class="subtitle-top text-dark used-tech">Used Technologies</p>
+                          <div class="icon-tech-wrapper">
+                            <img src="icons/golang.svg" class="icon-item" title="Golang" alt="Golang">
+                            <img src="icons/typescript.svg" class="icon-item" title="Typescript" alt="Typescript">
+                            <img src="icons/python.svg" class="icon-item" title="Python" alt="Python">
+                            <img src="icons/php.svg" class="icon-item" title="PHP" alt="PHP">
+                            <img src="icons/mysql.svg" class="icon-item" title="MySQL" alt="MySQL">
+                            <img src="icons/postgresql.svg" class="icon-item" title="PostgreSQL" alt="PostgreSQL">
+                            <img src="icons/mongodb.svg" class="icon-item" title="MongoDB" alt="MongoDB">
+                            <img src="icons/bash.svg" class="icon-item" title="Bash" alt="Bash">
+                            <img src="icons/laravel.svg" class="icon-item" title="Laravel" alt="Laravel">
+                            <img src="icons/nodejs.svg" class="icon-item" title="Nodejs" alt="Nodejs">
+                            <img src="icons/reactjs.svg" class="icon-item" title="ReactJS" alt="ReactJS">
+                            <img src="icons/preactjs.svg" class="icon-item" title="PreactJS" alt="PreactJS">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <div id="error" class="modal modal-message fade" role="dialog">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                  <h2 class="modal-title">Sorry</h2>
-                  <p class="modal-subtitle">Something went wrong </p>
-               </div>
+      <div data-anchor="page3" class="pp-scrollable text-white section section-3">
+        <div class="scroll-wrap">
+          <div class="bg-changer">
+            <div class="section-bg" style="background-image:url(images/bg/bg2.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-2.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-3.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-4.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-5.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-6.jpg);"></div>
+          </div>
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title hidden-xs hidden-sm"><span>my works</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h2 class="title-uppercase text-white">Featured works</h2>
+                          <div class="row-project-box row" id="featured_works">
+                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
+                              <a href="javascript:void(0)" data-project="e-rapor" class="project-box">
+                                <div class="project-box-inner">
+                                  <h5>E-Rapor</h5>
+                                  <div class="project-category">Information System</div>
+                                  <p class="project-desc">Manajemen nilai report siswa dengan fitur perankingan dan penginputan nilai UTS, UAS dan Tugas</p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
+                              <a href="javascript:void(0)" data-project='sim-aset' class="project-box">
+                                <div class="project-box-inner">
+                                  <h5>SIM Aset Daerah</h5>
+                                  <div class="project-category">Information System</div>
+                                  <p class="project-desc">Manajemen kib aset daerah dengan fitur input barang, transaksi barang, laporan dan rekap</p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
+                              <a href="javascript:void(0)" data-project="persediaan" class="project-box">
+                                <div class="project-box-inner">
+                                  <h5>e-Persediaan</h5>
+                                  <div class="project-category">Information System</div>
+                                  <p class="project-desc">Manajemen persediaan barang daerah dengan fitur input barang, transaksi barang, laporan dan rekap</p>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
+                              <a href="javascript:void(0)" data-project="simayapada" class="project-box">
+                                <div class="project-box-inner">
+                                  <h5>Simayapada</h5>
+                                  <div class="project-category">Information System</div>
+                                  <p class="project-desc">Manajemen data lelang daerah yang diambil dari aplikasi RUP dan LPSE</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <a href="#" class="h5 link-arrow text-white">view all projects <i class="icon icon-chevron-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/smoothscroll.js"></script>
-      <script src="js/jquery.validate.min.js"></script>
-      <script src="js/owl.carousel.min.js"></script>
-      <script src="js/jquery.pagepiling.js"></script>
-      <script src="js/scripts.js"></script>
+      <div data-anchor="page4" class="pp-scrollable section section-4">
+        <div class="scroll-wrap">
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span>Services</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-5 col-lg-5">
+                          <p class="subtitle-top text-dark">My services</p>
+                          <h2 class="title-uppercase">Aiming <span class="text-primary">to bring</span> client satisfication</h2>
+                          <ul class="service-list">
+                            <li><a href="">01. Agile Development</a></li>
+                            <li><a href="">02. Maintenance</a></li>
+                            <li><a href="">03. Structured Code</a></li>
+                            <li><a href="">04. Revision</a></li>
+                            <li><a href="">05. More</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                          <div class="dots-image-2">
+                            <img alt="" class="img-responsive" src="images/1-470x490.jpg">
+                            <div class="dots"></div>
+                            <div class="experience-info">
+                              <div class="number" id="years_experience"></div>
+                              <div class="text">Years<br>Experience<br>In Web Programming</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-anchor="page5" class="pp-scrollable text-white section section-6">
+        <div class="scroll-wrap">
+          <div class="section-bg" style="background-image:url(images/bg/bg3.jpg);"></div>
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title hidden-xs hidden-sm"><span>Resume</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="col-resume">
+                            <h6 class="resume-title">
+                              Achievement
+                            </h6>
+                            <div class="resume-content">
+                              <div class="resume-inner" id="resume_education">
+                                <div class="resume-row">
+                                  <h6 class="resume-type">IT Venture XII (1st Place)</h6>
+                                  <p class="resume-study">Location: Sebelas Maret University, Surakarta City, Central Java</p>
+                                  <p class="resume-date text-primary">2019</p>
+                                  <p class="resume-text">Annual national level competition held by Himaster UNS</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">LKS SMK XXVIII Web Programming (2nd Place)</h6>
+                                  <p class="resume-study">Location : SMKN 2 Yogyakarta, Yogyakarta City, Special Region of Yogyakarta</p>
+                                  <p class="resume-date text-primary">2019</p>
+                                  <p class="resume-text">Annual province level competition held by Department of Education Yogyakarta</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">LKS SMK XXVII Web Programming (2nd Place)</h6>
+                                  <p class="resume-study">Location : SMKN 2 Yogyakarta, Yogyakarta City, Special Region of Yogyakarta</p>
+                                  <p class="resume-date text-primary">2018</p>
+                                  <p class="resume-text">Annual province level competition held by Department of Education Yogyakarta</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="col-resume">
+                            <h6 class="resume-title">
+                              Education
+                            </h6>
+                            <div class="resume-content">
+                              <div class="resume-inner" id="resume_education">
+                                <div class="resume-row">
+                                  <h6 class="resume-type">ELEMENTARY SCHOOL</h6>
+                                  <p class="resume-study">SDN 6 Wonosari, Gunung Kidul Regency, Special Region of Yogyakarta</p>
+                                  <p class="resume-date text-primary">2008 - 2014</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">JUNIOR HIGH SCHOOL</h6>
+                                  <p class="resume-study">SMPN 1 Wonosari, Gunung Kidul Regency, Special Region of Yogyakarta</p>
+                                  <p class="resume-date text-primary">2014 - 2017</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">COMPUTER & NETWORK ENGINEERING</h6>
+                                  <p class="resume-study">SMKN 2 Wonosari, Gunung Kidul Regency, Special Region of Yogyakarta</p>
+                                  <p class="resume-date text-primary">2017 - 2020</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">BACHELOR OF INFORMATICS</h6>
+                                  <p class="resume-study">AMIKOM University, Sleman Regency, Special Region of Yogyakarta</p>
+                                  <p class="resume-date text-primary">2021 - Present</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="col-resume">
+                            <h6 class="resume-title">
+                              Experience
+                            </h6>
+                            <div class="resume-content">
+                              <div class="resume-inner" id="resume_work">
+                                <div class="resume-row">
+                                  <h6 class="resume-type">PRACTICAL WORK</h6>
+                                  <p class="resume-study">PT. Global Intermedia Nusantara, Yogyakarta City, Special Region of Yogyakarta</p>
+                                  <p class="resume-date text-primary">Jul 2019 - Sep 2019</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">WEB DEVELOPER</h6>
+                                  <p class="resume-study">PT. Global Intermedia Nusantara, Yogyakarta City, Special Region of Yogyakarta</p>
+                                  <p class="resume-date text-primary">Jul 2020 - Present</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div data-anchor="page6" class="pp-scrollable section section-4">
+        <div class="scroll-wrap">
+        <div class="scrollable-content">
+        <div class="vertical-centred">
+        <div class="boxed boxed-inner">
+        <div class="vertical-title text-dark hidden-xs hidden-sm"><span>Partners</span></div>
+        <div class="boxed">
+        <div class="container">
+        <div class="intro overflow-hidden">
+        <div class="row">
+        <div class="col-md-12">
+        <div class="row-partners">
+        <div class="col-partner">
+        <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
+        </div>
+        <div class="col-partner">
+        <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
+        </div>
+        <div class="col-partner">
+        <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
+        </div>
+        <div class="col-partner">
+        <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
+        </div>
+        <div class="col-partner">
+        <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
+        </div>
+        <div class="col-partner">
+        <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
+        </div>
+        <div class="col-partner">
+        <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
+        </div>
+        <div class="col-partner">
+        <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div> -->
+        <!-- <div data-anchor="page7" class="pp-scrollable text-white section section-6">
+          <div class="scroll-wrap">
+          <div class="section-bg" style="background-image:url(images/bg/bg4.jpg);"></div>
+          <div class="scrollable-content">
+          <div class="vertical-centred">
+          <div class="boxed boxed-inner">
+          <div class="vertical-title hidden-xs hidden-sm"><span>testimonials</span></div>
+          <div class="boxed">
+          <div class="container">
+          <div class="intro">
+          <div class="row">
+          <div class="col-md-6 col-lg-5">
+          <span class="icon-quote ion-quote"></span>
+          <h2 class="title-uppercase text-white">creative & dedicated is things that Syahid studio brings for your house</h2>
+          </div>
+          <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2">
+          <div class="review-carousel owl-carousel">
+          <div class="review-carousel-item">
+          <div class="text">
+          <p>“ If you are seeking an Interior designer that will understand exactly your needs, and someone who will utilise their creative and technical skills in parity with your taste, then Suzanne at The Syahid Studio is perfect.</p>
+          <p> Thank you so much for all your design and expertise."</p>
+          </div>
+          <div class="review-author">
+          <div class="author-name">David & Elisa</div>
+          <i>Apartment view lake at Brooklyn</i>
+          </div>
+          </div>
+          <div class="review-carousel-item">
+          <div class="text">
+          <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptates officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius."</p>
+          <p> Thank you so much for all your design and expertise."</p>
+          </div>
+          <div class="review-author">
+          <div class="author-name">Amanda</div>
+          <i>Apartment view lake at Brooklyn</i>
+          </div>
+          </div>
+          <div class="review-carousel-item">
+          <div class="text">
+          <p>“ If you are seeking an Interior designer that will understand exactly your needs, and someone who will utilise their creative and technical skills in parity with your taste, then Suzanne at The Syahid Studio is perfect.</p>
+          <p> Thank you so much for all your design and expertise."</p>
+          </div>
+          <div class="review-author">
+          <div class="author-name">John</div>
+          <i>Apartment view lake at Brooklyn</i>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+        -->
+        <div data-anchor="page6" class="pp-scrollable section section-6">
+          <div class="scroll-wrap">
+            <div class="scrollable-content">
+              <div class="vertical-centred">
+                <div class="boxed boxed-inner">
+                  <div class="vertical-title text-dark hidden-xs hidden-sm"><span>contact</span></div>
+                  <div class="boxed">
+                    <div class="container">
+                      <div class="intro overflow-hidden">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h2 class="title-uppercase">Get In Touch</h2>
+                            <div class="contact-info">
+                              <form class="js-form" novalidate="novalidate">
+                                <div class="row">
+                                  <div class="form-group col-sm-6">
+                                    <input type="text" name="name" required="" placeholder="Name*" aria-required="true">
+                                  </div>
+                                  <div class="form-group col-sm-6">
+                                    <input type="email" name="email" placeholder="Email">
+                                  </div>
+                                  <div class="form-group col-sm-12">
+                                    <input type="text" name="subject" placeholder="Subject (Optinal)">
+                                  </div>
+                                  <div class="form-group col-sm-12">
+                                    <textarea name="message" required="" placeholder="Message*" aria-required="true"></textarea>
+                                  </div>
+                                  <div class="col-sm-12"><button type="submit" class="btn">Send Message</button></div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal modal-detail-project fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+            <h5 class="project-title"></h5>
+            <div class="mt-1 project-desc"></div>
+            <div class="project-category">
+              Category : <span></span>
+            </div>
+            <div class="project-used-technologies">
+              Developed Using : <span></span>
+            </div>
+            <div class="project-images"></div>
+            <br>
+            <a href="javascript:void(0)" class="project-link">Preview Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="success" class="modal modal-message fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+            <h2 class="modal-title">Thank you</h2>
+            <p class="modal-subtitle">Your message is successfully sent...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="error" class="modal modal-message fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+            <h2 class="modal-title">Sorry</h2>
+            <p class="modal-subtitle">Something went wrong </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.3/viewer.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.pagepiling.js"></script>
+    <script src="js/scripts.js"></script>
 </html>
