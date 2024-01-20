@@ -104,7 +104,7 @@ class DataProjectBuilder {
 
   $(window).on('load', function () {
     $('.loader').fadeOut(1000);
-    var yearStartAsProgrammer = 2018
+    var yearStartAsProgrammer = 2022
     var yearsExperience = (new Date).getFullYear() - yearStartAsProgrammer
     $('#years_experience').html((yearsExperience - (yearsExperience % 3)) + '+')
   });
